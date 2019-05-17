@@ -1,9 +1,24 @@
+<!DOCTYPE html>
 <html>
 	<head>
-		<title>Board</title>
+		<title>Board - Home</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<script src="script.js"></script>
 	</head>
 	<body>
-		<h1>Board</h1>
-		<a href="projects.html">Projects</a>
+		<div class="container">
+			<h1>Board</h1>
+			<ul>
+				<li><a href="todos.html">To-do</a></li>
+				<li><a href="projects.html">Projects</a></li>
+				<li><a href="goals.html">Goals</a></li>
+				<li><a href="generic-lists.html">Other lists...</a></li>
+			</ul>
+			<div>
+				<label>Insert some data:</label>
+				<input id="data" name="data" type="text">
+				<input type="button" value="Submit">
+			</div>
+		</div>
 	</body>
 </html>
