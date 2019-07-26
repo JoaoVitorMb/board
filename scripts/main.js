@@ -1,5 +1,5 @@
 
-function init () {
+function setup () {
 	
 	console.log("Hello World!");
 	
@@ -13,4 +13,4 @@ function init () {
 	
 }
 
-init();
+setup();

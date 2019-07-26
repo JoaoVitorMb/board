@@ -1,5 +1,65 @@
 
+body {
+	margin: 0px;
+	padding: 0px;
+}
+
 .container {
-	width: 60%;
+	width: 70%;
 	margin: auto;
 }
+
+.sidebar {
+	width: 19%;
+	height: 768px;
+	display: inline-block;
+	overflow: hidden;
+	border: 1px solid red;
+}
+
+.board {
+	height: 768px;
+	width: 80%;
+	overflow: hidden;
+	display: inline-block;
+	border: 1px solid red;
+}
+
+.board-column {
+	height: 100%;
+	display: inline-block;
+	overflow: hidden;	
+	border: 1px solid red;
+}
+
+.board-column-60 {
+	width: 59%;
+}
+
+.board-column-40 {
+	width: 39%;
+}
+
+
+/*------------------------------*/
+/* Card                         */
+/*------------------------------*/
+
+.card {
+	width: 99%;
+	border: 1px solid #5c5c5c;
+	margin: 14px auto;
+	overflow: hidden;
+}
+
+.card-title {
+	min-height: 21px;
+	border-bottom: 1px solid #5c5c5c;
+	overflow: hidden;
+}
+
+.card-content {
+	min-height: 42px;
+	overflow: hidden;
+}
+
